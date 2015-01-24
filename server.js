@@ -26,8 +26,7 @@ app.use(function(req, res, next) {
 
 app.route('/')
   .get(function(request, response) {
-    response.render('index2');
-    //response.send('Hello World!');
+    response.render('index');
   });
 
 app.route('/db')
