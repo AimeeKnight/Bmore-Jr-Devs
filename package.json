@@ -25,5 +25,8 @@
     "heroku",
     "express"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jade": "^1.9.1"
+  }
 }
