@@ -17,7 +17,7 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse applica
 app.use(methodOverride());
 
 app.set('views', __dirname + '/public');
-app.set('view engine', 'jade');
+app.set('view engine', 'ejs');
 
 app.use(function(req, res, next) {
   console.log(req.method, req.url);
